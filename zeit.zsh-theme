@@ -1,9 +1,10 @@
 local resetColor="%{$reset_color%}"
-local prefix="▲"
+local prefix="["
+local suffix="]"
 local dir="%{$fg_bold[white]%}%c$resetColor$resetColor"
 
 
-PROMPT='$prefix $dir $(git_prompt_info)'
+PROMPT='$prefix$dir$suffix $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="at %{$fg_bold[white]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="$resetColor "
