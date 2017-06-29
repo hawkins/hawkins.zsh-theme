@@ -3,7 +3,6 @@ local prefix="["
 local suffix="]"
 local dir="%{$fg_bold[white]%}%c$resetColor$resetColor"
 
-
 PROMPT='$prefix$dir$suffix $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="at %{$fg_bold[white]%}"
